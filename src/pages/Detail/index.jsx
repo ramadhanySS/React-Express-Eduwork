@@ -39,7 +39,7 @@ function Detail() {
       <Link to="/" className="btn btn-primary">
         Kembali
       </Link>
-      <Link to={`/edit/${product._id}`} className="btn btn-sm btn-warning">
+      <Link to={`/edit/${product._id}`} className="btn btn-warning">
         Edit
       </Link>
       <table className="table">
